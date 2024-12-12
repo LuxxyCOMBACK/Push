@@ -1,0 +1,26 @@
+{
+  "name": "Ultramanz",
+  "version": "3.3.1",
+  "description": "",
+  "main": "ultramanz.js",
+  "scripts": {
+    "dev": "nodemon ultramanz.js",
+    "code": "rm -rf ./data/auth && rm -rf ./data/store.json && echo '[]' > ./data/users.json && echo '[]' > ./data/histories.json && node ultramanz.js --number",
+    "qr": "rm -rf ./data/auth && rm -rf ./data/store.json && echo '[]' > ./data/users.json && echo '[]' > ./data/histories.json && node ultramanaz.js",
+    "start": "node ultramanz.js --number"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^6.7.5",
+    "javascript-obfuscator": "^4.1.1",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.5",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
